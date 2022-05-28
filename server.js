@@ -42,6 +42,6 @@ app.get('/all', async (req,res) => {
 
 // Setup Server
 
-app.listen(8000,() => {
+app.listen(3000,() => {
     console.log('Listening to port 8000')
 })
