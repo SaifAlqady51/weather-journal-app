@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+#title {
+    display:block;
+    flex:auto;
+    background-color: #1c2a5a;
+    text-align: center;
+    font-size: 35px;
+    color: wheat;
+    padding: 10px;
+    
+}
+
+
+#app{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding:10px ;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background:url('clear-blue-sky.jpeg');
+}
+
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    height: 700px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    background: linear-gradient(120deg,#2c56b8,#334494);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 5px 10px 10px;
+}
+
+
+
+
+
+
+label{
+    font-size: 24px;
+    color: wheat;
+}
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    height: 45px;
+    width: 100%;
+}
+
+
+textarea {
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 80%;
+
+} 
+
+button {
+    font-size: 16px;
+    display: block;
+    padding:15px 40px;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+
+.title {
+    font-size: 24px;
+    color: wheat;
+}
+
+#entryHolder  {
+    margin: 16px;
+    font-size: 18px;
+
+    color: wheat;
+}
+
+.data {
+    margin: 16px;
+    font-size: 18px;
+
+    color: wheat;
+}
+
+
